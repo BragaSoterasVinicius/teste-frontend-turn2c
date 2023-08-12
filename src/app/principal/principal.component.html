@@ -1,0 +1,15 @@
+<h2>principal works!</h2>
+<a routerLink = "perfil">perfil</a>
+<div>
+<h1>Bem vindo ao melhor site de cachorros que voce vai encontrar, depois vai ser só um site belíssimo mesmo.</h1>
+</div>
+
+<div class="card">
+    <p-table [value]="dogs" [tableStyle]="{ 'min-width': '50rem' }">
+        <ng-template pTemplate="body" let-dog>
+            <tr>
+                <td><img src={{dog.url}} height="100px" width="100px"></td>
+            </tr>
+        </ng-template>
+    </p-table>
+</div>
