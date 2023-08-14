@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { PrincipalComponent } from './principal/principal.component';
 import { TableModule } from 'primeng/table';
+import { DropdownComponente } from './dropdown/dropdown.component';
 
 @NgModule({
   declarations: [
