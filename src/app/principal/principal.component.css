@@ -6,20 +6,20 @@ body {
 #top{
     top: 0px;
     height: 56px;
-    background-color: aliceblue;
+    background-color: var(--aliceblue);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 a{
-    text-decoration: none;
+    text-decoration:  var(--none);
 }
 a:visited{
-    text-decoration: none;
-    color: black;
-    background-color: none;
+    text-decoration: var(--none);
+    color:  var(--black);
+    background-color: var(--none);
 }
 select{
-    background-color: gray;
+    background-color: var(--gray);
 }
 option{
-    background-color: gray;
+    background-color: var(--gray);
 }
